@@ -142,10 +142,10 @@ export default function Hero() {
         {/* Mobile View Placeholder (Simplified stack for small screens) */}
         <div className="md:hidden relative mx-auto mb-16 mt-8 flex flex-col items-center">
           <div className="relative z-10 h-[200px] w-[200px] rotate-[-5deg] rounded-[20px] border-[0.5px] border-[#A2A2A2] bg-white p-2 shadow-xl">
-            <Image width={200} height={200} src="/Image_Container.svg" alt="Mobile Product" className="h-full w-full object-cover rounded-[13px]" />
+            <Image width={200} height={200} src="/shoe.jpg" alt="Mobile Product" className="h-full w-full object-cover rounded-[13px]" />
           </div>
           <div className="absolute top-4 scale-95 z-0 h-[200px] w-[200px] rotate-[5deg] rounded-[20px] border-[0.5px] border-[#A2A2A2] bg-white p-2 opacity-60">
-            <Image width={200} height={200} src="/Image_Container.svg" alt="Mobile Product" className="h-full w-full object-cover rounded-[13px]" />
+            <Image width={200} height={200} src="/cloth.jpg" alt="Mobile Product" className="h-full w-full object-cover rounded-[13px]" />
           </div>
         </div>
 
