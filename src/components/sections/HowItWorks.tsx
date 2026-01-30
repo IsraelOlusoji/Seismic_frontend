@@ -1,5 +1,5 @@
 export default function HowItWorks() {
-  
+
   const steps = [
     {
       step: 'ONE',
@@ -40,7 +40,7 @@ export default function HowItWorks() {
   }) => {
     return (
       <div className="flex w-[348px] flex-col items-start rounded-[11px] relative z-10">
-      
+
         <div className="mb-[17px] flex w-full items-center justify-between rounded-full bg-white px-6 py-3 shadow-[0_2px_8px_rgba(0,0,0,0.04)] ring-1 ring-gray-100 relative z-20">
           <span className="text-[15px] font-bold uppercase tracking-wider text-grey-950">
             STEP {step}
@@ -78,30 +78,30 @@ export default function HowItWorks() {
           How it Works
         </h2>
 
-       
+
         <p className="mx-auto mb-20 max-w-2xl text-center text-[16px] font-normal leading-[25.6px] tracking-[0.0015em] text-grey-700">
           Buying from international stores doesn&apos;t have to be complicated. <br /> Here&apos;s how we make it simple.
         </p>
 
-     
+
         <div className="relative hidden w-full text-left lg:block" style={{ height: '1200px' }}>
 
-         
+
           <svg className="absolute inset-0 h-full w-full pointer-events-none z-20" viewBox="0 0 1160 1300" fill="none">
-            
+
             <path
               d="
-                M 468 205 
-                H 550 
-                L 620 405 
+                M 460 200
+                H 550
+                L 610 410
                 H 696
                 
-                M 870 530
-                V 618
+                M 870 553
+                V 648
 
-                M 696 823
+                M 696 903
                 H 625
-                L 550 1055
+                L 550 1135
                 H 468
               "
               stroke="#003631"
@@ -110,31 +110,31 @@ export default function HowItWorks() {
               strokeLinejoin="round"
             />
             {/* Dots */}
-            <circle cx="474" cy="205" r="7" fill="#003631" />
-            <circle cx="690" cy="405" r="7" fill="#003631" />
+            <circle cx="465" cy="200" r="8" fill="#003631" />
+            <circle cx="700" cy="410" r="8" fill="#003631" />
 
-            <circle cx="870" cy="537" r="7" fill="#003631" />
-            <circle cx="870" cy="613" r="7" fill="#003631" />
+            <circle cx="870" cy="553" r="8" fill="#003631" />
+            <circle cx="870" cy="648" r="8" fill="#003631" />
 
-            <circle cx="690" cy="823" r="7" fill="#003631" />
-            <circle cx="474" cy="1055" r="7" fill="#003631" />
+            <circle cx="700" cy="903" r="8" fill="#003631" />
+            <circle cx="465" cy="1135" r="8" fill="#003631" />
           </svg>
 
           {/* Step 1: */}
-          <div className="absolute left-30 top-0 z-10">
+          <div className="absolute left-30 top-[-15px] z-10">
             <StepCard {...steps[0]} />
           </div>
 
           {/* Step 2: */}
-          <div className="absolute right-29 top-[200px] z-10">
+          <div className="absolute right-29 top-[180px] z-10">
             <StepCard {...steps[1]} />
           </div>
 
           {/* Step 3: */}
-          <div className="absolute right-29 top-[618px] z-10">
+          <div className="absolute right-29 top-[610px] z-10">
             <StepCard {...steps[2]} />
           </div>
-    
+
           {/* Step 4: */}
           <div className="absolute left-30 top-[850px] z-10">
             <StepCard {...steps[3]} />
