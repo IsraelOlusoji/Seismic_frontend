@@ -113,15 +113,15 @@ export default function HowItWorks() {
             <circle cx="465" cy="200" r="8" fill="#003631" />
             <circle cx="700" cy="410" r="8" fill="#003631" />
 
-            <circle cx="870" cy="553" r="8" fill="#003631" />
-            <circle cx="870" cy="648" r="8" fill="#003631" />
+            <circle cx="870" cy="559" r="8" fill="#003631" />
+            <circle cx="870" cy="653" r="8" fill="#003631" />
 
             <circle cx="700" cy="903" r="8" fill="#003631" />
             <circle cx="465" cy="1135" r="8" fill="#003631" />
           </svg>
 
           {/* Step 1: */}
-          <div className="absolute left-30 top-[-15px] z-10">
+          <div className="absolute left-30 top-[-20px] z-10">
             <StepCard {...steps[0]} />
           </div>
 
